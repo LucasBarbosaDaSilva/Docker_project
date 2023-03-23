@@ -1,1 +1,9 @@
-docker image pull nginx:1.21.3-alpine 
+FROM node:14-alpine
+WORKDIR /app
+EXPOSE 3000
+
+ADD node_modules.tar.gz .
+COPY . .
+
+ENTRYPOINT ["npm"]
+CMD ["start"]
