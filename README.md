@@ -1,13 +1,34 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Backend - Docker e Docker Compose
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Contexto
+Este é o repositório do projeto de backend que faz parte do meu aprendizado em Docker, containers, manipulação de imagens Docker e Docker Compose. O objetivo deste projeto é fornecer um ambiente de desenvolvimento consistente e reproduzível para aplicativos backend, utilizando as tecnologias mencionadas. Durante o desenvolvimento deste projeto, tive a oportunidade de explorar e aprimorar meus conhecimentos em Docker, containers, manipulação de imagens Docker e Docker Compose. Ao trabalhar com essas tecnologias, pude compreender a importância de criar ambientes isolados, escaláveis e facilmente replicáveis para desenvolver e implantar aplicações de forma eficiente.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Tecnologias usadas
+
+Desenvolvido usando: Docker, Docker Compose.
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter o Docker e o Docker Compose instalados em sua máquina.
+
+- [Instalação do Docker](https://docs.docker.com/get-docker/)
+- [Instalação do Docker Compose](https://docs.docker.com/compose/install/)
+
+## Executando o Projeto
+
+Siga as etapas abaixo para executar o projeto em sua máquina local:
+
+1. Clone este repositório:
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. Navegue até o diretório do projeto:
+   cd nome-do-repositorio
+
+3. Execute o seguinte comando para construir as imagens Docker:
+   docker-compose build
+
+4. Inicie os serviços do Docker Compose:
+   docker-compose up
+
+
+
